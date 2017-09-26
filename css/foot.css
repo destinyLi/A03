@@ -1,0 +1,22 @@
+/*底部*/
+#footer{ overflow:hidden;}
+#ftop{ background:#363636; overflow:hidden; padding:40px 0;}
+#ftop .it{ width:25%; float:left;}
+#ftop .it .title{ font-size:14px; color:#fff; margin:0 0 18px 30px;}
+#ftop .it .desc{ color:#b1b0af; font-size:14px; margin:0 0 18px 30px; line-height:150%;}
+#ftop .it .rows{ overflow:hidden; margin:0 0 15px 30px;}
+#ftop .it .rows span{ float:left; width:17px; height:18px; background:url(../image/fbg.png) no-repeat;}
+#ftop .it .rows font{ float:left; width:175px; margin-left:15px; font-size:14px;}
+#ftop .it span.row1{ background-position:0px 2px;}
+#ftop .it span.row2{ background-position:0px -34px;}
+#ftop .it span.row3{ background-position:0px -70px;}
+#ftop .it .it_a{ background:url(../image/fico.png) no-repeat left center; text-indent:16px; margin:0 0 15px 30px;}
+#ftop .it .it_a a{ color:#8c8c8c;}
+#fbot{ height:53px; line-height:53px; background:#2f2f2f;}
+.copyright{ color:#8c8c8c;text-align: center;text-transform: uppercase}
+.copyright a{ color:#8c8c8c;}
+@media(max-width: 991px){
+    #ftop .it{ width: 100% }
+    #ftop .it .title{ font-size:18px; color:#fff;position: relative}
+    .ss{display: none}
+}

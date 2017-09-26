@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***************************宽屏样式(start)***************************/
+/***************************宽屏样式(end)***************************/
+#ibanner{ text-align:center; position:relative; width:100%; min-width:1440px; margin:0 auto;}
+#float_ad{ position:absolute; right:140px; top:37px; z-index:7;}
+#iart{ height:48px; overflow:hidden; text-align:center; width:700px; margin:0 auto;}
+#iart *{ display:inline-block; float:left;}
+#iart span{ width:29px; height:49px; background:url(../images/letter.png) no-repeat 0px 0px;}
+#iart div{ font-family:Verdana, Geneva, sans-serif; color:#333333; line-height:48px; margin:0 10px;}
+#iart a{ font-family:Verdana, Geneva, sans-serif; color:#2996cc; line-height:48px; background:url(../images/learn.png) no-repeat right center; padding-right:10px;}
+
+
+/*轮播*/
+.slideBox_1{overflow:hidden; position:relative; text-align:center;}
+.slideBox_1 .prev, .slideBox_1 .next{display:none;}
+.slideBox_1 .hd{height:15px; overflow:hidden; position:absolute; bottom:15px; z-index:1;}
+.slideBox_1 .hd ul{overflow:hidden; zoom:1; float:left;}
+.slideBox_1 .hd ul li{float:left; margin-left:5px; width:10px; height:10px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#f1f1f1; cursor:pointer;}
+.slideBox_1 .hd ul li:first-child{margin-left:0;}
+.slideBox_1 .hd ul li.on{ background:#f00; color:#fff;}
+.slideBox_1 .bd{position:relative; height:100%; z-index:0;}
+.slideBox_1 .bd ul li a{display:block; background-position:center top; background-repeat:no-repeat;}
+.slideBox_1 .bd ul, .slideBox_1 .bd ul li, .slideBox_1 .bd ul li a{width:100%; height:499px;}
+#popular{
+    background: #f7f7f7 url("../image/cbg.png") no-repeat center center;
+
+}
+#bottom_ad{padding: 30px 0;}
+#popular h3{ font-size:2.5rem; font-family:Verdana, Geneva, sans-serif; margin-top: 3.02rem;padding-bottom: 20px}
+#in_title{ overflow:hidden; border-bottom:1px solid #e4e4e4; background:#f7f7f7;padding: 60px 0 40px 0}
+#subs{ overflow:hidden;}
+#subs span{ float:left; font-size:14px; color:#fff; padding:10px 20px; background:#58595b; margin-right:1px; cursor:pointer;}
+#subs span.cur{ background:#3ca8d3;}
+#subs .fr{ margin:14px 0 0 0; background:url(../images/more.png) no-repeat right center; padding-right:23px; margin-right:9px; height:17px; line-height:17px;}
+#subs .fr a{ color:#757575;}
+#products_box div.indexpro{ display:none;}
+.product_list .item .inner .price{ color:#49add6 !important;}
+.carousel-indicators li.active{  background-color: #ffffff}

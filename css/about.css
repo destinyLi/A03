@@ -1,0 +1,7 @@
+#global_editor_contents{
+    margin-top: 30px;
+    line-height: 30px;
+}
+#global_editor_contents span{
+    display: block;
+}
